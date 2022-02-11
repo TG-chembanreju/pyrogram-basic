@@ -1,12 +1,14 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import random
+import os
+from sample_config import Config
 
 Devourd=Client(
     "Pyrogram bot",
-    bot_token="5183036011:AAF5kz6kMCUIGGrQl5fH53WSZYZfUeBptZY",
-    api_id="17875613",
-    api_hash="6798f54a7f74e94f2ef0923fba8a8377"
+    bot_token=Config.TG_BOT_TOKEN,
+    api_id=Config.APP_ID,
+    api_hash=Config.API_HASH,
 )
 
 
