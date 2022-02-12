@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import random
-import os
-from sample_config import Config
+
+
 
 Devourd=Client(
     "Pyrogram bot",
