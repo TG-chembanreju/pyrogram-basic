@@ -6,9 +6,9 @@ from sample_config import Config
 
 Devourd=Client(
     "Pyrogram bot",
-    bot_token=Config.TG_BOT_TOKEN,
-    api_id=Config.APP_ID,
-    api_hash=Config.API_HASH,
+    bot_token="5110802092:AAFEH_XwJnHt4Pz-L2KccpAiz9uwWa0rqjM",
+    api_id="10707816",
+    api_hash="9726c3908f543bb2b81654ace45dd674"
 )
 
 
